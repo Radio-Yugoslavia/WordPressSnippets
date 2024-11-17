@@ -6,6 +6,7 @@ Image credits: [Krime](https://substack.com/@krime?utm_source=byline)
 
 # Blocking Israel from E-Commerce (WooCommerce+Wordpress)
 ![image](https://github.com/user-attachments/assets/a0f030fb-36b4-43f6-997f-146d7894c0ad)
+
 WooCommerce > Settings > General
 
 # Changing 'Palestinian Territories' into Palestine
