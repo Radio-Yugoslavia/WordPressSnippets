@@ -1,0 +1,14 @@
+/***
+
+This renames North Macedonia to Macedonia and Palestinian Territories to Palestine. On addition, you can chose ship and sell everywhere except Israel.
+This snippet needs to be added to the functions.php of the theme you're using with your WooCommerce. To ban Israel from your store, you go to WooCommerce > Settings > General 
+
+*/
+
+add_filter( 'woocommerce_countries', 'rename_macedonia' );
+
+function rename_macedonia( $countries ) {
+   $countries['MK'] = 'Macedonia';
+   $countries['PS'] = 'Palestine';
+   return $countries;
+}
